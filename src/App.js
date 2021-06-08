@@ -1,24 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
-
+import NavBar from './NavBar';
+import {BrowserRouter as Router , Switch , Route} from "react-router-dom";
+import Menu from './Menu';
+import Rewards from './Rewards';
+import Gift from './Gift';
+import Join from "./Join";
+import Sign from "./Sign";
+import ShopLoc from "./ShopLoc";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    
+      <NavBar/>
+    <Switch>
+      <Route path="/" component={Menu} exact></Route>
+      <Route path="/rewards" component={Rewards} ></Route>
+      <Route path="/gift" component={Gift} ></Route>
+      <Route path="/join" component={Join} ></Route>
+      <Route path="/sign" component={Sign} ></Route>
+      <Route path="/shop" component={ShopLoc} ></Route>
+
+    </Switch>
+
+    </>
   );
 }
 
