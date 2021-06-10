@@ -16,7 +16,7 @@ const NavBar = () =>{
                 </NavLink>
                         <ul className={click ? "nav-menu active" : "nav-menu"}> 
                             <li className="nav-item">
-                                <NavLink exact to="/" className="nav-links" activeClassName="active"  onClick={handleClick}>MENU</NavLink>
+                                <NavLink exact to="/menu" className="nav-links" activeClassName="active"  onClick={handleClick}>MENU</NavLink>
                             </li>
                             <li className="nav-item">
                                 <NavLink exact to="/rewards"  className="nav-links" activeClassName="active" onClick={handleClick}>REWARDS</NavLink>

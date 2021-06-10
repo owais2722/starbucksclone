@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.land-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.land-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.placement {
+  margin-left: 100px;
+  margin-top: 5px;
+  color: #1e3932;
+  justify-self: center;
+}
+
+.land-container-reverse {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin-bottom: 20px;
+}
+
+/* twoimg css */
+.two-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.cards h2 {
+  margin: 27px;
+  color: #1e3932;
+}
+
+.cards p {
+  margin: 7px;
+  color: #1e3932;
+}
+.empty {
+  margin: 10px;
+}
