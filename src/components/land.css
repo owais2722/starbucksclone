@@ -56,3 +56,38 @@
 .empty {
   margin: 10px;
 }
+
+@media screen and (max-width: 960px) {
+  .land-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .land-container-reverse {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+  }
+
+  .two-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .land-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .cards img {
+    width: 100%;
+    height: auto;
+  }
+
+  .placement h1 {
+    font-size: 25px;
+    padding-right: 27px;
+  }
+}
