@@ -8,22 +8,56 @@
 
 .card-position {
   display: flex;
-  flex-wrap: wrap;
-  height: fit-content;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  /* height: fit-content; */
 }
 
 .menu-container {
   display: flex;
 }
 
-.card-position .food-card-container {
+.card-drinks .food-card-container {
   flex-grow: 1;
+}
+
+.card-food .food-card-container {
+  flex-grow: 1;
+}
+
+.card-athome .food-card-container {
+  flex-grow: 1;
+}
+
+.card-drinks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-food {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-athome {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.food-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding-top: 10px;
+  color: #008248;
 }
 
 /* side bar */
 
 .side-bar {
   margin-left: 60px;
+  color: #1e3932;
 }
 
 .side-bar-list ul {
@@ -33,7 +67,7 @@
 
 .side-bar-list li {
   margin-top: 15px;
-  font-weight: lighter;
+  font-weight: 450;
 }
 
 /* cards css */
@@ -45,14 +79,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(177, 247, 186);
+  color: #1e3932;
   margin: 5px;
   margin-left: 50px;
   height: fit-content;
+  margin-top: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .food-card-img {
-  padding-right: 5px;
+  padding-right: 15px;
 }
 
 .food-item {

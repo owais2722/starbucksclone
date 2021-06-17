@@ -1,6 +1,10 @@
 import React from "react";
 import FoodCards from "./FoodCards";
+import {ImagesFood,ImagesHome,ImagesDrinks} from "./images/img";
  const Menu =()=>{
+     function carddisp (value){
+        return(<FoodCards src={value.src} itemname={value.itemname} />);
+     };
      return(<>
          <div className="menu-container">
                 <div className="side-bar">
@@ -29,14 +33,19 @@ import FoodCards from "./FoodCards";
                     </div>
                 </div>
                 <div className="card-position">
-                <FoodCards/>
-                <FoodCards/>
-                <FoodCards/>
-                <FoodCards/>
-                <FoodCards/>
-                <FoodCards/>
+                <div className="food-title"><h2>Drinks</h2></div>
+                <div className="card-drinks">
+                {ImagesDrinks.map(carddisp)}
                 </div>
-    
+                <div className="food-title"><h2>Food</h2></div>
+                <div className="card-food">
+                {ImagesFood.map(carddisp)}
+                </div>
+                <div className="food-title"><h2>At Home Coffee</h2></div>
+                <div className="card-athome">
+                {ImagesHome.map(carddisp)}
+                </div>
+                </div>
          </div>
      </>);
  }
