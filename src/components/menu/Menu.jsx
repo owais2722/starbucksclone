@@ -1,6 +1,6 @@
 import React from "react";
 import FoodCards from "./FoodCards";
-import {ImagesFood,ImagesHome,ImagesDrinks} from "./images/img";
+import {ImagesFood,ImagesHome,ImagesDrinks} from "./img";
  const Menu =()=>{
      function carddisp (value){
         return(<FoodCards src={value.src} itemname={value.itemname} />);

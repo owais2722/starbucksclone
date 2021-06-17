@@ -4,6 +4,8 @@
   margin: 0;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
 /* menu */
 
 .card-position {
@@ -51,6 +53,11 @@
   margin: 10px;
   padding-top: 10px;
   color: #008248;
+  font-size: x-large;
+}
+
+.food-title h2 {
+  font-family: "Lalezar", cursive;
 }
 
 /* side bar */
@@ -85,6 +92,7 @@
   height: fit-content;
   margin-top: 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  padding: 10px;
 }
 
 .food-card-img {
