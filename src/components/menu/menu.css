@@ -60,6 +60,13 @@
   font-family: "Lalezar", cursive;
 }
 
+.navlinks {
+  text-decoration: none;
+  color: black;
+}
+.active {
+  color: #008248;
+}
 /* side bar */
 
 .side-bar {

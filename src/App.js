@@ -8,11 +8,12 @@ import Join from "./Join";
 import Sign from "./Sign";
 import ShopLoc from "./ShopLoc";
 import LandPg from "./components/LandPg";
+import Coffemenu from "./components/menu/Coffemenu";
 function App() {
   return (
     <>
     
-      <NavBar/>
+    <NavBar/>
     <Switch>
       <Route path="/" component={LandPg} exact></Route>
       <Route path="/menu" component={Menu} exact></Route>
@@ -21,6 +22,7 @@ function App() {
       <Route path="/join" component={Join} ></Route>
       <Route path="/sign" component={Sign} ></Route>
       <Route path="/shop" component={ShopLoc} ></Route>
+      <Route path="/coffee" component={Coffemenu} ></Route>
     </Switch>
     </>
   );

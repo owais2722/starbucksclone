@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 import FoodCards from "./FoodCards";
-import {ImagesFood,ImagesHome,ImagesDrinks} from "./img";
- const Menu =()=>{
+import { ImagesCoffeAmerica , ImagesCoffeBrewed ,ImagesMochas} from "./img";
+ const Coffemenu =()=>{
      function carddisp (value){
         return(<FoodCards src={value.src} itemname={value.itemname} />);
      };
@@ -12,7 +12,7 @@ import {ImagesFood,ImagesHome,ImagesDrinks} from "./img";
                     <div className="side-bar-list">
                     <ul>
                         <li><h3>Drinks</h3></li>
-                        <li><NavLink to="/coffee"  className="navlinks">Hot Coffee</NavLink></li>
+                        <li><NavLink to="/coffee" className="navlinks" activeClassName="active">Hot Coffee</NavLink></li>
                         <li>Hot Teas</li>
                         <li>blended beverages</li>
                         <li>Cold Coffee</li>
@@ -34,17 +34,17 @@ import {ImagesFood,ImagesHome,ImagesDrinks} from "./img";
                     </div>
                 </div>
                 <div className="card-position">
-                <div className="food-title"><h2>Drinks</h2></div>
+                <div className="food-title"><h2>AMERICANO</h2></div>
                 <div className="card-drinks">
-                {ImagesDrinks.map(carddisp)}
+                {ImagesCoffeAmerica.map(carddisp)}
                 </div>
-                <div className="food-title"><h2>Food</h2></div>
+                <div className="food-title"><h2>BREWED</h2></div>
                 <div className="card-food">
-                {ImagesFood.map(carddisp)}
+                {ImagesCoffeBrewed.map(carddisp)}
                 </div>
-                <div className="food-title"><h2>At Home Coffee</h2></div>
+                <div className="food-title"><h2>MOCHAS</h2></div>
                 <div className="card-athome">
-                {ImagesHome.map(carddisp)}
+                {ImagesMochas.map(carddisp)}
                 </div>
                 </div>
          </div>
@@ -53,4 +53,4 @@ import {ImagesFood,ImagesHome,ImagesDrinks} from "./img";
 
 
 
- export default Menu;
+ export default Coffemenu;

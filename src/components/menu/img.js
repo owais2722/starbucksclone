@@ -21,4 +21,20 @@ const ImagesHome=[
 ];
 
 
-export {ImagesDrinks, ImagesFood, ImagesHome};
+const ImagesCoffeAmerica=[
+    {src:"images/coffee2.png", itemname:"caffe americano"},
+];
+
+const ImagesCoffeBrewed=[
+    {src:"images/caffemisto.png", itemname:"Caffe Misto"},
+    {src:"images/brewed1.png", itemname:"Blonde Roast"},
+    {src:"images/brewed1.png", itemname:"Pike Roast"}
+];
+
+const ImagesMochas=[
+    {src:"images/caffemocha.png", itemname:"Caffe Mochas"},
+    {src:"images/darkchoclatemocha.png" , itemname:"Dark Choco Mocha"},
+    {src:"images/whitechocmocha.png" , itemname:"White Choco Mocha"}
+];
+
+export {ImagesDrinks, ImagesFood, ImagesHome , ImagesCoffeAmerica , ImagesCoffeBrewed ,ImagesMochas};
