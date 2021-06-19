@@ -4,7 +4,7 @@ import FoodCards from "./FoodCards";
 import { ImagesCoffeAmerica , ImagesCoffeBrewed ,ImagesMochas} from "./img";
  const Coffemenu =()=>{
      function carddisp (value){
-        return(<FoodCards src={value.src} itemname={value.itemname} />);
+        return(<FoodCards src={value.src} itemname={value.itemname} link={value.to} />);
      };
      return(<>
          <div className="menu-container">

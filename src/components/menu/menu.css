@@ -109,3 +109,77 @@
 .food-item {
   padding-right: 3px;
 }
+
+/* product card */
+.productcard-container {
+  margin-top: 25px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  width: 1000px;
+  border-radius: 15px;
+  box-shadow: 0 2px 15px 0 rgb(88, 85, 85);
+}
+
+.productcard-description {
+  padding-left: 50px;
+}
+
+.productcard-text h1 {
+  padding-bottom: 20px;
+}
+
+.product-price-button {
+  display: flex;
+  padding-top: 20px;
+}
+
+.product-price-button {
+  margin: 15px;
+}
+
+.product-price-button button {
+  margin-left: 25px;
+  height: 50px;
+  width: 176px;
+  border: transparent;
+  border-radius: 60px;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+  background-color: #008248;
+  cursor: pointer;
+  outline: none;
+}
+
+.product-price-button button:hover {
+  background-color: #09af64d7;
+}
+
+span {
+  display: inline-block;
+  height: 50px;
+  font-family: "Suranna", serif;
+  font-size: 34px;
+}
+
+.product-price-button p {
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 3px;
+}
+
+.productcard-img {
+  margin-top: 3px;
+  height: fit-content;
+}
+
+.productcard-img img {
+  height: 300px;
+  width: 300px;
+}

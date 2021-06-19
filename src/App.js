@@ -9,6 +9,7 @@ import Sign from "./Sign";
 import ShopLoc from "./ShopLoc";
 import LandPg from "./components/LandPg";
 import Coffemenu from "./components/menu/Coffemenu";
+import ProductCard from "./components/menu/productpage/ProductCard";
 function App() {
   return (
     <>
@@ -23,6 +24,8 @@ function App() {
       <Route path="/sign" component={Sign} ></Route>
       <Route path="/shop" component={ShopLoc} ></Route>
       <Route path="/coffee" component={Coffemenu} ></Route>
+      <Route path="/coffeamericano" component={ProductCard} ></Route>
+      
     </Switch>
     </>
   );
