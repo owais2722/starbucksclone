@@ -1,9 +1,9 @@
 import React , { useState } from "react";
-
+import Login from "./components/Login&signin/Login";
 const Sign =()=>{
     return(
         <>
-            <h1>sign now</h1>
+            <Login/>
         </>
     )
 }
