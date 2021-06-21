@@ -14,7 +14,7 @@ const ProductCard = ()=>{
                 </p>
             </div>
             <div className="product-price-button">
-            <p><span>78</span>$</p>
+            <p>78$</p>
             <button type="button">buy now</button>
             </div>
            </div>
