@@ -12,7 +12,7 @@ const NavBar = () =>{
             <nav className="nav-bar">
                 <div className="nav-container">
                 <NavLink exact to="/" className="nav-logo">
-                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png" height="70px" width="70px" ></img>
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1200px-Starbucks_Corporation_Logo_2011.svg.png" height="70px" width="70px" alt="logo" ></img>
                 </NavLink>
                         <ul className={click ? "nav-menu active" : "nav-menu"}> 
                             <li className="nav-item">

@@ -5,7 +5,7 @@ const FoodCards = (props)=>{
     return(<>
      <div className="food-card-container">
         <div className="food-card-img">
-            <img  src={props.src} width="100px"  height="100px" />
+            <img  src={props.src} width="100px"  height="100px" alt="foodimage" />
         </div>
         <div className="food-item"><NavLink  className="navlinks" activeClassName="active" to={props.link}><h2>{props.itemname}</h2></NavLink></div>
      </div>

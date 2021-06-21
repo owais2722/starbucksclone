@@ -4,7 +4,7 @@ const ProductCard = ()=>{
     return(<>
        <div className="productcard-container">
            <div   className="productcard-img" >
-            <img src="images/coffee2.png"></img>
+            <img src="images/coffee2.png" alt="coffe in cup"></img>
            </div>
            <div className="productcard-description">
            <div className="productcard-text">

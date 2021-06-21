@@ -1,6 +1,6 @@
 import './App.css';
 import NavBar from './NavBar';
-import {BrowserRouter as Router , Switch , Route} from "react-router-dom";
+import {Switch , Route} from "react-router-dom";
 import Menu from './components/menu/Menu';
 import Rewards from './Rewards';
 import Gift from './Gift';

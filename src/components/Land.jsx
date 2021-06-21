@@ -8,7 +8,7 @@ const Land =(props)=>{
             <div className="placement"><h3>{props.minitxt}</h3></div>
         </div>
         <div className="land-img">
-            <img src={props.imgsrc} height={props.height} width={props.width}></img>
+            <img src={props.imgsrc} height={props.height} width={props.width} alt="img"></img>
         </div>
     </div>
     </>
