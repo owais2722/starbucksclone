@@ -113,7 +113,7 @@
 /* product card */
 .productcard-container {
   margin-top: 25px;
-  margin-left: 90px;
+  margin-left: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -195,6 +195,9 @@
     align-items: center;
     flex-direction: column;
     width: fit-content;
+    /* height: auto; */
+    margin-left: 50px;
+    margin-right: 50px;
   }
   .productcard-img img {
     height: 200px;
